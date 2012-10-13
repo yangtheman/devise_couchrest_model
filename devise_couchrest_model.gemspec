@@ -15,6 +15,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = DeviseCouchrestModel::VERSION
 
-  gem.add_dependency 'couchrest_model', '2.0.0.beta2'
-  gem.add_dependency 'devise', '>= 2.1'
+  gem.add_dependency "couchrest_model", "2.0.0.beta2"
+  gem.add_dependency "orm_adapter_couchrest_model"
+  gem.add_dependency "devise", ">= 2.1"
 end
