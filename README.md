@@ -1,6 +1,6 @@
 # DeviseCouchrestModel
 
-TODO: Write a gem description
+Devise extension for couchrest_modle
 
 ## Installation
 
@@ -18,7 +18,18 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+1. run devise install
+2. Add devise hook to your couchrest_model Model
+
+Note: not all the tests are passed, use this gem at your own risk
+
+## Run Tests
+
+You need CouchDB running at localhost to run the tests
+
+Default test db is http://locahost:5984/devise-test-suite without admin
+
+Currently, not all the tests are passed, if you can fix the tests, I'd appreciate your helps.
 
 ## Contributing
 
