@@ -1,6 +1,6 @@
 # DeviseCouchrestModel
 
-Devise extension for couchrest_modle
+Devise extension for couchrest_model
 
 ## Installation
 
@@ -28,6 +28,12 @@ Note: not all the tests are passed, use this gem at your own risk
 You need CouchDB running at localhost to run the tests
 
 Default test db is http://locahost:5984/devise-test-suite without admin
+
+    git clone https://github.com/winfield/devise_couchrest_model.git
+    git clone https://github.com/plataformatec/devise.git
+    cd devise_couchrest_model
+    bundle install
+    rake test
 
 Currently, not all the tests are passed, if you can fix the tests, I'd appreciate your helps.
 
