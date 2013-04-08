@@ -19,7 +19,7 @@ class User < CouchRest::Model::Base
 
   include SharedUser
   include Shim
-  use_database CouchRest.database!("http://127.0.0.1:5984/devise-test-suite")
+  use_database CouchRest.database!("http://admin:admin@127.0.0.1:5984/devise-test-suite")
 
   property :username
   property :facebook_token

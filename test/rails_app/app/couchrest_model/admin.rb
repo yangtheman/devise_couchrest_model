@@ -20,7 +20,7 @@ class Admin < CouchRest::Model::Base
   include SharedAdmin
   include Shim
 
-  use_database CouchRest.database!("http://127.0.0.1:5984/devise-test-suite")
+  use_database CouchRest.database!("http://admin:admin@127.0.0.1:5984/devise-test-suite")
 
   ## Database authenticatable
   property :email
